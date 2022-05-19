@@ -5,7 +5,20 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="assets/css/index.css" />
+		<script src="assets/js/index.js" defer></script>
+		<script src="node_modules/jquery/dist/jquery.min.js" defer></script>
 		<title>Busca CEP</title>
 	</head>
-	<body></body>
+	<body>
+		<section id="seach-cep" class="conteiner">
+			<label for="cep">Cep</label>
+			<input id="cep" type="text" placeholder="CEP" />
+			<button id="button" class="btn-seach"></button>
+		</section>
+		<section id="map" class="conteiner"></section>
+		<footer id="by">
+			<div id="msg"></div>
+			<div id="contact"></div>
+		</footer>
+	</body>
 </html>
